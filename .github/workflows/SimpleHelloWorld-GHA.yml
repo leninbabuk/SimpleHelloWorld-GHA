@@ -5,4 +5,7 @@ jobs:
      runs-on: ubuntu-22.04
      steps:
        - name: hello world priting
-         run: echo "Hello World" 
+         run:|
+          echo "Hello from line1"
+          echo "Hello from line2"
+          echo "hell0 from line3"
