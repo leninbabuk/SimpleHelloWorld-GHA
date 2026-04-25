@@ -5,5 +5,15 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - name: Buildstep 
-        run: echo "this is build step"   
+      - name: Buildstep
+        run: echo "this is build step"
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Testing
+        run: echo "TEsting the code"
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: testing
+        run: echo "Deploying the code"
