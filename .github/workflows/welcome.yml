@@ -8,10 +8,11 @@ jobs:
         run: echo "Hello This is the first job"
 
   secondjob:
+    needs: firstjob
     runs-on: ubuntu-latest
     steps:
       - name: second job
-        run: echo "Hello this is the second job:
+        run: echo "Hello this is the second job"
 
         
         
