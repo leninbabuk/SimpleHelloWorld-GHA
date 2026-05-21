@@ -1,9 +1,14 @@
-name: secondworkflow
+name: multijobworkflow
 on: workflow_dispatch 
 jobs:
-  secondjob:
+  firstjob:
     runs-on: ubuntu-latest
     steps:
+      - name: firstjob
+        run: echo "This is the first Job"
+  secondjob:
+    runs-on: ubuntu-22.04
+    steps:
       - name: secondjob
-        run: echo "This is the second Job"
-    
+        run:  echo "This is the second Job"
+        
