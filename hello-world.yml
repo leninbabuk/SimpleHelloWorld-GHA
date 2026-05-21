@@ -1,0 +1,7 @@
+-name: Hello World Sample
+   on: workflow_dispatch
+   Jobs:
+    -name: to print the hellow world
+     echo: "Hello World!!!"
+
+     
