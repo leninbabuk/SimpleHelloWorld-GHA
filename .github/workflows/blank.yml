@@ -1,8 +1,8 @@
 name: This is my first test jobs:
-on: workflow_disptach
-jobs:
-testing: to print hellow world
-runs_on: ubuntu-latest
-steps: 
-- name:  first step
-run: echo "Hello World!!!!"
+ on: workflow_disptach
+ jobs:
+  testing: to print hellow world
+  runs_on: ubuntu-latest
+  steps: 
+  - name:  first step
+    run: echo "Hello World!!!!"
